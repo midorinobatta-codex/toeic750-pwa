@@ -1,0 +1,5 @@
+export const readingData = [
+  { id: "r001", part: 5, passage: null, question: "All employees must _____ the safety training by Friday.", options: ["complete", "completely", "completion", "completed"], answer: 0, explanation: "must（助動詞）の後ろには動詞の原形が必要です。", level: 1, day: 1 },
+  { id: "r002", part: 6, passage: "Dear Ms. Clark,\n\nThank you for your recent order. We are pleased to inform you that your package has been _____.\nYou can track the shipment using the tracking number below.", question: "Choose the best word for the blank.", options: ["shipping", "shipped", "shipment", "ships"], answer: 1, explanation: "has been + 過去分詞（受動態・完了形）で「発送された」となる shipped が適切です。", level: 1, day: 1 },
+  { id: "r003", part: 7, passage: "To: All Staff\nFrom: HR Department\nDate: May 12\nSubject: Summer Schedule\n\nPlease be informed that our office hours will change from June 1st to August 31st. We will open at 8:00 AM and close at 4:30 PM.", question: "When will the new schedule begin?", options: ["May 12", "June 1st", "August 31st", "8:00 AM"], answer: 1, explanation: "本文中の「will change from June 1st」に基づき、June 1stが正解です。", level: 2, day: 2 }
+];
